@@ -10,14 +10,16 @@ content:
         by: name
         dir: asc
 
-columns:
-    main:
-        width: 8
-        extra_classes: col-md-offset-2 col-sm-12
-    left:
-        width: 0
-    right:
-        width: 0
+layout_elements:
+    left_sidebar:
+        column: 0
+#        class: col-sm-12
+    main_content:
+        column: 8
+        class: col-md-offset-2 col-sm-12
+    right_sidebar:
+        column: 0
+#        class: col-sm-12
 ---
 
 # Internal layouts

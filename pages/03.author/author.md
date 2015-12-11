@@ -5,37 +5,31 @@ metadata:
 slug: something-about-me
 
 # LAYOUT CUSTOMIZATION OPTIONS
-#columns:
-#    content: 12
-#classes:
-#    page_content_row: extra-page-content-row
-#    page_content_column: col-sm-12
-#    content_row: extra-row
-author_image:
-    visible: true
-    width: 3
-    extra_classes: col-sm-12
+layout_elements:
+#    container:
+#       class: extra-image-class
+    author_image:
+        visible: true
+#        column: 3
+        class: col-sm-12
+    author_bio:
+        visible: true
+#        column: 9
+        class: col-sm-12
+    education:
+        visible: true
+#        column: 4
+        class: col-sm-12
+    experience:
+        visible: true
+#        column: 4
+        class: col-sm-12
+    skills:
+        visible: true
+#        column: 4
+        class: col-sm-12
+        title: Skills
 
-author_bio:
-    visible: true
-    width: 9
-    extra_classes: col-sm-12
-
-education:
-    visible: true
-    width: 4
-    extra_classes: col-sm-12
-
-experience:
-    visible: true
-    width: 4
-    extra_classes: col-sm-12
-
-skills:
-    visible: true
-    width: 4
-    extra_classes: col-sm-12
-    title: Skills
 
 # SKILLS
 gravstrap:

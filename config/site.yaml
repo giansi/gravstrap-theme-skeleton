@@ -25,6 +25,7 @@ gravstrap:
               menu0:
                   type: menu
                   alignment: center
+                  # onepage: true
               menu1:
                   type: menu
                   alignment: right

@@ -1,5 +1,9 @@
 ---
 fullwidth: false
+
+#SINGLE PAGE
+#menu: Meet us
+
 googlemaps:
     map:
         center: 41.90278, 12.49637

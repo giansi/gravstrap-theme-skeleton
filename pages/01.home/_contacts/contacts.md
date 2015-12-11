@@ -1,17 +1,24 @@
 ---
 # LAYOUT CUSTOMIZATION OPTIONS
-#form_position: right
-#columns:
-#    content: 12
-#    information: 3
-#    map: 9
-#classes:
-#    page_content_row: extra-page-content-row
-#    page_content_column: col-sm-12
-#    content_row: extra-row
-#    information_column: extra-information
-#    form_column: extra-form
+#layout_elements:
+#    content:
+#        column: 12
+#        classes:
+#            row: extra-content-row
+#            column: col-sm-12
+#    container:
+#        class: extra-container-class
+#    information:
+#        column: 3
+#        class: extra-information-class
+#    form:
+#        column: 9
+#        position: right
+#        class: extra-form-class
 #sections_file: contacts.markdown
+
+#SINGLE PAGE
+#menu: Contact us
 
 # FORM OPTIONS
 show_form_labels: false

@@ -1,14 +1,23 @@
 ---
 # LAYOUT CUSTOMIZATION OPTIONS
-#classes:
-#    page_content_row: extra-page-content-row
-#    page_content_column: col-sm-12
-#    content_row: extra-row
-#    content_column: col-sm-12
-#    extra_item: extra-item
-#    extra_text: extra-text
-# How many items must be displayed in a row. This value must be one of 1, 2, 3, 4, 6
-items_per_row: 3
+#layout_elements:
+#    content:
+#        column: 12
+#        classes:
+#            row: extra-content-row
+#            column: col-sm-12
+#    item:
+#        column: 4
+#        classes:
+#            row: extra-item-row
+#            column: col-sm-12
+#    icon:
+#        class: extra-icon-class
+#    text:
+#        class: extra-text-class
+
+#SINGLE PAGE
+#menu: Business
 
 # ITEMS
 items:

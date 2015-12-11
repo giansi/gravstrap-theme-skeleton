@@ -1,19 +1,25 @@
 ---
 # LAYOUT CUSTOMIZATION OPTIONS
-#columns:
-#    content: 12
-#classes:
-#    page_content_row: extra-page-content-row
-#    page_content_column: col-sm-12
-#    content_row: extra-row
-#    content_column: col-sm-12
-#    image: extra-image
-#    text: extra-text
-#    social: extra-social
-#sections_file: team.markdown
+layout_elements:
+#    content:
+#        column: 12
+#        classes:
+#            row: extra-content-row
+#            column: col-sm-12
+    item:
+#        column: 4
+        classes:
+#            row: extra-item-row
+            column: col-sm-6  col-xs-12
+#    image:
+#        class: extra-image-class
+#    text:
+#        class: extra-text-class
+#    social:
+#        class: extra-social-class
 
-# How many items must be displayed in a row. This value must be one of 1, 2, 3, 4, 6
-items_per_row: 3
+#SINGLE PAGE
+#menu: Team
 
 # ITEMS
 items:

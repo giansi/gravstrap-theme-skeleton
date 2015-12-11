@@ -4,14 +4,16 @@ metadata:
   description: The internal.html.twig template configured to display the
 slug: fullwidth-template
 
-columns:
-    main:
-        width: 12
-        extra_classes: col-sm-12
-    left:
-        width: 0
-    right:
-        width: 0
+layout_elements:
+    left_sidebar:
+        column: 0
+#        class: col-sm-12
+    main_content:
+        column: 12
+        class: col-sm-12
+    right_sidebar:
+        column: 0
+#        class: col-sm-12
 ---
 
 # A fullwidth template

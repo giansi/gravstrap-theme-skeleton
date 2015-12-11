@@ -1,18 +1,23 @@
 ---
 # LAYOUT CUSTOMIZATION OPTIONS
-#map_position: right
-#columns:
-#    content: 12
-#    information: 3
-#    map: 9
-#classes:
-#    page_content_row: extra-page-content-row
-#    page_content_column: col-sm-12
-#    content_row: extra-row
-#    information_column: extra-information
-#    map_column: extra-map
-# sections_file: contact_map.markdown
+#layout_elements:
+#    content:
+#        column: 12
+#        classes:
+#            row: extra-content-row
+#            column: col-sm-12
+#    container:
+#        class: extra-container-class
+#    information:
+#        column: 3
+#        class: extra-information-class
+#    map:
+#        column: 9
+#        position: right
+#        class: extra-map-class
 
+#SINGLE PAGE
+#menu: Contact us
 
 # MAP DEFINITION
 googlemaps:
@@ -28,7 +33,7 @@ googlemaps:
               info: <strong>Meet Us</strong>.<br/>We are there!
 
 # COMMENT TO PUBLISH
-#published: false
+published: false
 ---
 
 ## Show your customers your position and how they can contact you
