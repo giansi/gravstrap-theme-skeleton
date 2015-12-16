@@ -4,7 +4,7 @@ home:
   alias: '/home'
 
 pages:
-  theme: gravstraptheme
+  theme: gravstrap-theme
   markdown_extra: true
   process:
     markdown: true

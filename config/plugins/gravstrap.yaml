@@ -1,0 +1,20 @@
+enabled: true
+navbar:
+    enhanced: true
+    assets:
+        css:
+            0: gravstrap_navbar.css
+        js:
+            0: gravstrap_navbar.js
+            1: scroll.js
+jumbotron:
+    enhanced: true
+    assets:
+        css:
+            0: gravstrap_jumbotron.css
+
+progressbar:
+    enhanced: true
+    assets:
+        css:
+            0: gravstrap_progressbar.css
