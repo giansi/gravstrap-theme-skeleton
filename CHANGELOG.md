@@ -2,7 +2,8 @@
 ## 12/16/2015
 
 1. [](#improved)
-    * rearranged portfolio module
+    * changed theme name in system.yaml
+    * added gravstrap and blog plugin configuration
 
 # v0.9.0
 ## 12/11/2015
