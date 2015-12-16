@@ -1,8 +1,11 @@
 ---
 # LAYOUT CUSTOMIZATION OPTIONS
-#classes:
-#    page_content_row: extra-page-content-row
-#    page_content_column: col-sm-12
+#layout_elements:
+#    content:
+#        column: 12
+#        classes:
+#            row: extra-content-row
+#            column: col-sm-12
 
 #SINGLE PAGE
 #menu: Portfolio
@@ -11,7 +14,7 @@
 gravstrap:
     thumbnails:
         thumbnails1:
-            #from_file: thumbnails.markdown
+            #from_file: portfolio.markdown
             items:
                 0:
                     url: "#"
