@@ -1,15 +1,15 @@
-name: Gravstrap Theme
-version: 0.9.8
-description: "Gravstrap Theme helps you to start a new Grav CMS site with Bootstrap support and several ready to use modules. It is also perfect to start a new Bootstrap custom theme, to create your unique design."
+name: Gravstrap Theme Skeleton
+version: 0.9.10
+description: "Gravstrap Theme Skeleton helps you to start a new Grav CMS site with Bootstrap support and several ready to use modules. It is also perfect to start a new Bootstrap custom theme, to create your unique design."
 icon: picture-o
 author:
   name: Giansimon Diblas
   email: info@diblas.net
   url: http://diblas.net
-homepage: https://github.com/giansi/gravstrap-theme
+homepage: https://github.com/giansi/gravstrap-theme-skeleton
 demo: http://gravstrap.diblas.net/
 keywords: "gravstrap, bootstrap, theme, responsive, html5, css3, jquery"
-bugs: https://github.com/giansi/gravstrap-theme/issues
+bugs: https://github.com/giansi/gravstrap-theme-skeleton/issues
 license: MIT
 
 form:
