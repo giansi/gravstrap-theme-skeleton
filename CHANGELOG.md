@@ -1,3 +1,9 @@
+# v0.9.12
+## 01/06/2016
+
+1. [](#improved)
+    * Configured to work with renamed Blog Injector plugin
+
 # v0.9.11
 ## 12/23/2015
 
