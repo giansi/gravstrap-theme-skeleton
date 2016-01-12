@@ -1,3 +1,12 @@
+# v0.9.14
+## 01/12/2016
+
+1. [](#bugfix)
+    * Gravstrap-theme css was not correctly compiled. Fixed.
+2. [](#new)
+    * Added the Blog plugin new release 
+
+
 # v0.9.13
 ## 01/08/2016
 
