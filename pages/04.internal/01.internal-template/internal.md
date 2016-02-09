@@ -1,68 +1,40 @@
 ---
-title: The internal template
+title: Internal template configured with two sidebars
 metadata:
-  description: A very versatile template to handle internal pages.
+  description: The internal template configured with left and right  sidebars
 
 slug: the-internal-template-in-detail
 
-layout_elements:
-    left_sidebar:
-        column: 3
-        class: col-sm-12
-    main_content:
-        column: 6
-        class: col-sm-12
-    right_sidebar:
-        column: 3
-        class: col-sm-12
 ---
 
-# How to use the internal template
-The internal template handles the website internal pages. This is a very versatile template because you can define the columns number and their width, in the page's header section, .
+[sections]
+[section name=left attributes="class:col-md-3"]
+###Left Sidebar
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in porta lacus, vel laoreet magna. Cras vitae sem nec felis luctus sollicitudin. Donec eleifend ullamcorper purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent consectetur auctor dui in suscipit. Duis orci metus, iaculis quis faucibus sit amet, hendrerit laoreet nisl. Morbi dignissim tincidunt blandit. Curabitur non egestas nisl, sit amet eleifend neque. Ut a risus id lorem lacinia pellentesque. Morbi ornare est ante, nec euismod ligula laoreet pharetra. Curabitur eu egestas quam. Proin risus ipsum, rutrum eu feugiat id, gravida ut justo. Phasellus laoreet turpis non mi pulvinar, quis viverra lorem egestas. Aliquam scelerisque mauris nec dui viverra molestie. Cras pretium enim ac accumsan molestie. Nulla facilisi.
 
-By default it comes as a two columns template, with a left sidebar and large content section. To add a third column, just configure the page's header section as follows:
+###Another content
+Cras facilisis sit amet quam eu euismod. Pellentesque mauris ipsum, malesuada et orci a, fermentum tincidunt erat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus sit amet efficitur neque, iaculis scelerisque erat. Quisque sit amet hendrerit ex, quis ullamcorper purus. Curabitur volutpat purus et facilisis mattis. Cras nisi nisl, commodo at tellus eget, semper imperdiet justo. In posuere pretium purus, sit amet maximus nisl lobortis efficitur. Fusce massa mi, rutrum eu ligula non, efficitur posuere elit. Nullam arcu metus, rhoncus in ante at, finibus sollicitudin felis. Cras at mollis velit. Etiam ultricies non mauris ac faucibus. Praesent nec justo sed lacus pulvinar pulvinar. Mauris at mi vitae nisi eleifend gravida imperdiet at urna.
+[/section]
 
-    layout_elements:
-        left_sidebar:
-            column: 3
-        main_content:
-            column: 7
-        right_sidebar:
-            column: 2
+[section name=main attributes="class:col-md-6"]
+# Main contents
 
-Usually you would also define the classes for small devices. This can be easily accomplished, adding an `extra_classes` attribute to the column definition:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in porta lacus, vel laoreet magna. Cras vitae sem nec felis luctus sollicitudin. Donec eleifend ullamcorper purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent consectetur auctor dui in suscipit. Duis orci metus, iaculis quis faucibus sit amet, hendrerit laoreet nisl. Morbi dignissim tincidunt blandit. Curabitur non egestas nisl, sit amet eleifend neque. Ut a risus id lorem lacinia pellentesque. Morbi ornare est ante, nec euismod ligula laoreet pharetra. Curabitur eu egestas quam. Proin risus ipsum, rutrum eu feugiat id, gravida ut justo. Phasellus laoreet turpis non mi pulvinar, quis viverra lorem egestas. Aliquam scelerisque mauris nec dui viverra molestie. Cras pretium enim ac accumsan molestie. Nulla facilisi.
 
-    layout_elements:
-        left_sidebar:
-            column: 3
-            class: col-sm-12
-        main_content:
-            column: 7
-            class: col-sm-12
-        right_sidebar:
-            column: 2
-            class: col-sm-12
+Cras facilisis sit amet quam eu euismod. Pellentesque mauris ipsum, malesuada et orci a, fermentum tincidunt erat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus sit amet efficitur neque, iaculis scelerisque erat. Quisque sit amet hendrerit ex, quis ullamcorper purus. Curabitur volutpat purus et facilisis mattis. Cras nisi nisl, commodo at tellus eget, semper imperdiet justo. In posuere pretium purus, sit amet maximus nisl lobortis efficitur. Fusce massa mi, rutrum eu ligula non, efficitur posuere elit. Nullam arcu metus, rhoncus in ante at, finibus sollicitudin felis. Cras at mollis velit. Etiam ultricies non mauris ac faucibus. Praesent nec justo sed lacus pulvinar pulvinar. Mauris at mi vitae nisi eleifend gravida imperdiet at urna.
 
-If you need a full page template, just configure the columns as follows:
+Nam in magna at lectus rhoncus suscipit eget et metus. Maecenas porta mauris in massa viverra luctus. Aliquam facilisis porta nisl, quis sagittis diam rutrum a. Proin sed dictum neque, in gravida lorem. Quisque massa neque, facilisis vel sem nec, dapibus suscipit purus. Sed sollicitudin malesuada urna eget ultrices. Phasellus viverra risus et risus porta, eget malesuada nisl elementum.
 
-    layout_elements:
-        left_sidebar:
-            column: 0
-        main_content:
-            column: 12
-            class: col-sm-12
-        right_sidebar:
-            column: 0
+Donec sit amet ante nulla. Morbi nec diam lorem. Aliquam in efficitur elit. Duis et feugiat nulla. Vestibulum ut ipsum ut elit vehicula auctor. Quisque sagittis purus et tellus cursus efficitur. Duis vel leo ut lorem tincidunt vehicula ac non ipsum. Mauris cursus diam eleifend odio faucibus, vel porta metus malesuada. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque sed bibendum lorem, sed bibendum sapien. Phasellus aliquet pulvinar tincidunt. Quisque non pretium mauris, malesuada tempus ligula.
+[/section]
 
-You can add a main offset column as follows:
+[section name=right attributes="class:col-md-3"]
+###Right Sidebar
+Nam in magna at lectus rhoncus suscipit eget et metus. Maecenas porta mauris in massa viverra luctus. Aliquam facilisis porta nisl, quis sagittis diam rutrum a. Proin sed dictum neque, in gravida lorem. Quisque massa neque, facilisis vel sem nec, dapibus suscipit purus. Sed sollicitudin malesuada urna eget ultrices. Phasellus viverra risus et risus porta, eget malesuada nisl elementum.
 
-If you need a full page template, just configure the columns as follows:
+###Another content
+Donec sit amet ante nulla. Morbi nec diam lorem. Aliquam in efficitur elit. Duis et feugiat nulla. Vestibulum ut ipsum ut elit vehicula auctor. Quisque sagittis purus et tellus cursus efficitur. Duis vel leo ut lorem tincidunt vehicula ac non ipsum. Mauris cursus diam eleifend odio faucibus, vel porta metus malesuada. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque sed bibendum lorem, sed bibendum sapien. Phasellus aliquet pulvinar tincidunt. Quisque non pretium mauris, malesuada tempus ligula.
 
-    layout_elements:
-        left_sidebar:
-            column: 0
-        main_content:
-            column: 8
-            class: col-md-offset-2 col-sm-12
-        right_sidebar:
-            column: 0
+[/section]
+[/sections]
+
