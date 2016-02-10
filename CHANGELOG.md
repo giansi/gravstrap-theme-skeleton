@@ -1,3 +1,10 @@
+# v1.0.0-beta.2
+## 02/10/2016
+
+1. [](#bugfix)
+    * Fixed contacts single page module shortcode id so the module is scrollable
+    * Removed old configurationsUpdated internal pages
+
 # v1.0.0-beta.1
 ## 02/09/2016
 

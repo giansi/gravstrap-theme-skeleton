@@ -4,7 +4,7 @@ menu: Contact us
 
 ---
 
-[contacts id=contacts attributes="class:module contacts" info_attributes="class:col-md-4" form_attributes="class:col-md-8"]
+[contacts id=_contacts attributes="class:module contacts" info_attributes="class:col-md-4" form_attributes="class:col-md-8"]
 
 ## Let your customers contact you
 Use the Contact module to let your customers contact you
