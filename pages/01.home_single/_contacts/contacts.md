@@ -4,21 +4,21 @@ menu: Contact us
 
 ---
 
-[contacts id=_contacts attributes="class:module contacts" info_attributes="class:col-md-4" form_attributes="class:col-md-8"]
+[gravstrap-contacts attributes="id:_contacts,class:module contacts" info_attributes="class:col-md-4" form_attributes="class:col-md-8"]
 
 ## Let your customers contact you
 Use the Contact module to let your customers contact you
 
 ___
 
-[section name="form"]
+[gravstrap-section name="form"]
 ##### Get in touch
 Need some information? Ask us a question filling the form below
 
-[simple-form token="xxxxx" redirect_to="/thank-you-for-my-page" render=true][/simple-form]
-[/section]
+[gravstrap-simple-form token="xxxxx" redirect_to="/thank-you-for-my-page" render=true][/gravstrap-simple-form]
+[/gravstrap-section]
 
-[section name="info"]
+[gravstrap-section name="info"]
 #####OFFICE
 
 9 - 3815 Thatcher Avenue  
@@ -36,5 +36,5 @@ S7R 1A3
 
 Monday - Friday 8 am - 5 pm  
 Saturday - Sunday Closed  
-[/section]
-[/contacts]
+[/gravstrap-section]
+[/gravstrap-contacts]

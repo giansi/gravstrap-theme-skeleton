@@ -20,18 +20,18 @@ googlemaps:
 published: false
 ---
 
-[contacts-map id=_contact_map attributes="class:where-we-are module" info_attributes="class:col-md-4" map_attributes="class:col-md-8"]
+[gravstrap-contacts-map name=contact_map attributes="class:where-we-are module" info_attributes="class:col-md-4" map_attributes="class:col-md-8"]
 
 ## Show your customers your position and how they can contact you
 Use the `Contact map` module to tell your customers position and how they can get in touch with you.
 
 ___
 
-[section name="map"]
+[gravstrap-section name="map"]
 [GOOGLEMAPS:contactmap]
-[/section]
+[/gravstrap-section]
 
-[section name="info"]
+[gravstrap-section name="info"]
 #####OFFICE
 
 9 - 3815 Thatcher Avenue  
@@ -49,5 +49,5 @@ S7R 1A3
 
 Monday - Friday 8 am - 5 pm  
 Saturday - Sunday Closed  
-[/section]
-[/contacts-map]
+[/gravstrap-section]
+[/gravstrap-contacts-map]

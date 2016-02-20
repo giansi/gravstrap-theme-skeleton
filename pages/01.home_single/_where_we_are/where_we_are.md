@@ -15,7 +15,7 @@ googlemaps:
               info: <strong>Meet Us</strong>.<br/>We are there!
 ---
 
-[where-we-are id=_where_we_are attributes="class:module where-we-are"]
+[gravstrap-where-we-are attributes="id:_where_we_are,class:module where-we-are"]
 
 ## Show your customers where you are
 Use the `Where we are` module to tell your customers where you are
@@ -24,4 +24,4 @@ ___
 
 [GOOGLEMAPS:map]
 
-[/where-we-are]
+[/gravstrap-where-we-are]
