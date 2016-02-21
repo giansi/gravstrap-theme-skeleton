@@ -2,12 +2,12 @@
 visible: false
 ---
 
-[gravstrap-navbar name=navbar1 fixed=top centering=none brand_text="Gravstrap theme" render=false]
+[gravstrap-navbar name=navbar1 fixed=top centering=none brand_text="Gravstrap" render=false]
     [gravstrap-navbar-menu name=menu0 alignment="center" submenu="internal,components"][/gravstrap-navbar-menu]    
     [gravstrap-navbar-menu name=menu1 icon_type="fontawesome" alignment="right" attributes="class: my-class,rel:my-rel"]
-        [gravstrap-link url="https://facebook.com" icon="facebook"][/gravstrap-link]
-        [gravstrap-link url="https://twitter.com" icon="twitter"][/gravstrap-link]
-        [gravstrap-link url="http://my-rss.com" icon="rss"][/gravstrap-link]
+        [gravstrap-link url="https://facebook.com/gravstrap" icon_type="fontawesome" icon="facebook"][/gravstrap-link]
+        [gravstrap-link url="https://twitter.com/gravstrap" icon="twitter"][/gravstrap-link]
+        [gravstrap-link url="https://github.com/giansi/gravstrap" icon="github"][/gravstrap-link]
     [/gravstrap-navbar-menu]
 [/gravstrap-navbar]
 

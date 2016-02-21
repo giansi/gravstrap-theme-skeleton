@@ -1,7 +1,7 @@
 ---
 title: Modules
 metadata:
-  description: Gravstrap Theme helps you to start a new Grav CMS site with Bootstrap support and several ready to use modules. It is also perfect to extend to start a new Bootstrap custom theme, to fit your needs.
+  description: Gravstrap plugin implements several modules you can use as shortcodes to simplify the web site building.
 slug: modules-shortcodes-for-grav-cms
 
 simple_form:
@@ -37,12 +37,9 @@ highlight:
 ---
 
 [gravstrap-jumbotron name="jumbotron1" fullwidth="true" image="bg.jpg" render=false]
-# Gravstrap theme
+# Modules shortcodes
 
-Gravstrap Theme helps you to start a new Grav CMS site with Bootstrap support and several ready to use modules. It is also perfect to start a new Bootstrap custom theme, to create your unique design.
-
-[Download Gravstrap Theme](https://github.com/giansi/gravstrap-theme-skeleton/releases){.btn .btn-outline-inverse .btn-lg}
-[Learn Gravstrap](http://diblas.net/plugins/use-bootstrap-components-as-shortcodes-in-grav-cms){.btn .btn-outline-inverse .btn-lg}
+Gravstrap plugin implements several modules you can use as shortcodes to simplify the web site building: watch them in action down in this page.
 
 [/gravstrap-jumbotron]
 

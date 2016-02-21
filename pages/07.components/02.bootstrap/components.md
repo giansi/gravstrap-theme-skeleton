@@ -1,7 +1,7 @@
 ---
 title: Bootstrap
 metadata:
-  description: Gravstrap Theme helps you to start a new Grav CMS site with Bootstrap support and several ready to use modules. It is also perfect to extend to start a new Bootstrap custom theme, to fit your needs.
+  description: Gravstrap plugin implements all Bootstrap components you can add to any page, using powerful shortcodes syntax.
 slug: bootstrap-components-as-shortcodes-for-grav-cms
 
 simple_form:
@@ -27,12 +27,9 @@ highlight:
 
 
 [gravstrap-jumbotron name="jumbotron1" fullwidth="true" image="bg.jpg" render=false]
-# Gravstrap theme
+# Bootstrap components as shortcodes
 
-Gravstrap Theme helps you to start a new Grav CMS site with Bootstrap support and several ready to use modules. It is also perfect to start a new Bootstrap custom theme, to create your unique design.
-
-[Download Gravstrap Theme](https://github.com/giansi/gravstrap-theme-skeleton/releases){.btn .btn-outline-inverse .btn-lg}
-[Learn Gravstrap](http://diblas.net/plugins/use-bootstrap-components-as-shortcodes-in-grav-cms){.btn .btn-outline-inverse .btn-lg}
+Gravstrap plugin implements all Bootstrap components you can add to any page, using powerful shortcodes syntax: watch them in action in this page.
 
 [/gravstrap-jumbotron]
 
@@ -301,9 +298,9 @@ ___
 [gravstrap-navbar centering=none brand_text="Brand"]
     [gravstrap-navbar-menu name=menu00 alignment="center" submenu="internal,components"][/gravstrap-navbar-menu]    
     [gravstrap-navbar-menu name=menu01 icon_type="fontawesome" alignment="right" attributes="class: my-class,rel:my-rel"]
-        [gravstrap-link url="https://facebook.com" icon="facebook"][/gravstrap-link]
-        [gravstrap-link url="https://twitter.com" icon="twitter"][/gravstrap-link]
-        [gravstrap-link url="http://my-rss.com" icon="rss"][/gravstrap-link]
+        [gravstrap-link url="https://facebook.com/gravstrap" icon_type="fontawesome" icon="facebook"][/gravstrap-link]
+        [gravstrap-link url="https://twitter.com/gravstrap" icon="twitter"][/gravstrap-link]
+        [gravstrap-link url="https://github.com/giansi/gravstrap" icon="github"][/gravstrap-link]
     [/gravstrap-navbar-menu]
 [/gravstrap-navbar]
 
@@ -313,9 +310,9 @@ ___
     [gravstrap-navbar centering=none brand_text="Gravstrap theme"]
         [gravstrap-navbar-menu name=menu00 alignment="center" submenu="internal,components"][/gravstrap-navbar-menu]    
         [gravstrap-navbar-menu name=menu01 icon_type="fontawesome" alignment="right" attributes="class: my-class,rel:my-rel"]
-            [gravstrap-link url="https://facebook.com" icon="facebook"][/gravstrap-link]
-            [gravstrap-link url="https://twitter.com" icon="twitter"][/gravstrap-link]
-            [gravstrap-link url="http://my-rss.com" icon="rss"][/gravstrap-link]
+            [gravstrap-link url="https://facebook.com/gravstrap" icon_type="fontawesome" icon="facebook"][/gravstrap-link]
+            [gravstrap-link url="https://twitter.com/gravstrap" icon="twitter"][/gravstrap-link]
+            [gravstrap-link url="https://github.com/giansi/gravstrap" icon="github"][/gravstrap-link]
         [/gravstrap-navbar-menu]
     [/gravstrap-navbar]
     [/raw]

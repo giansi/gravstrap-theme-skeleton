@@ -1,7 +1,7 @@
 ---
 title: Dynamic components
 metadata:
-  description: Gravstrap Theme helps you to start a new Grav CMS site with Bootstrap support and several ready to use modules. It is also perfect to extend to start a new Bootstrap custom theme, to fit your needs.
+  description: Use available components rendering them by their templates when you need to represent dynamic data fetched from an external source.
 slug: dynamic-bootstrap-components-as-shortcodes-for-grav-cms
 
 simple_form:
@@ -27,9 +27,9 @@ highlight:
 
 
 [gravstrap-jumbotron name="jumbotron1" fullwidth="true" image="bg.jpg" render=false]
-# Gravstrap theme
+# Render components by templates
 
-Gravstrap Theme helps you to start a new Grav CMS site with Bootstrap support and several ready to use modules. It is also perfect to start a new Bootstrap custom theme, to create your unique design.
+You can use the available components rendering them by their templates when you need to represent dynamic data fetched from an external source, like a database or a json file.
 
 [Download Gravstrap Theme](https://github.com/giansi/gravstrap-theme-skeleton/releases){.btn .btn-outline-inverse .btn-lg}
 [Learn Gravstrap](http://diblas.net/plugins/use-bootstrap-components-as-shortcodes-in-grav-cms){.btn .btn-outline-inverse .btn-lg}

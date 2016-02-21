@@ -22,11 +22,12 @@ googlemaps:
 
 
 [gravstrap-jumbotron name="jumbotron1" fullwidth="true" image="bg.jpg" render=false]
-# Gravstrap theme
+# Gravstrap
 
-Gravstrap Theme helps you to start a new Grav CMS site with Bootstrap support and several ready to use modules. It is also perfect to start a new Bootstrap custom theme, to create your unique design. The theme is built on top of [Gravstrap Plugin](http://diblas.net/plugins/use-bootstrap-components-as-shortcodes-in-grav-cms).
+Gravstrap is a powerful Grav CMS plugin which simplifies Bootstrap components usage, implementing them as shortcodes. This theme, built on top of Gravstrap, helps you to start a new Bootstrap custom theme, to create your unique design.
 
-[Download Gravstrap Theme](https://github.com/giansi/gravstrap-theme-skeleton/releases){.btn .btn-outline-inverse .btn-lg}
+[Download Gravstrap Plugin](http://diblas.net/plugins/use-bootstrap-components-as-shortcodes-in-grav-cms/how-to-install-the-gravstrap-plugin){.btn .btn-outline-inverse .btn-lg}
+[Download Gravstrap Theme](http://diblas.net/themes/gravstrap-theme-helps-to-start-a-new-grav-cms-site-with-bootstrap-support/how-to-install-gravstrap-theme){.btn .btn-outline-inverse .btn-lg}
 [Learn Gravstrap](http://diblas.net/plugins/use-bootstrap-components-as-shortcodes-in-grav-cms){.btn .btn-outline-inverse .btn-lg}
 
 [/gravstrap-jumbotron]

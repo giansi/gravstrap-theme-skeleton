@@ -5,7 +5,8 @@ home:
 
 pages:
   theme: gravstrap-theme
-  markdown_extra: true
+  markdown:
+    extra: true
   process:
     markdown: true
     twig: false
