@@ -1,3 +1,8 @@
+# v1.0.0-RC.1
+## 02/21/2016
+1. [](#bugfix)
+    * Renamed dynamic components page, using the right template
+
 # v1.0.0-RC
 ## 02/21/2016
 
