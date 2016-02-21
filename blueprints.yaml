@@ -1,6 +1,6 @@
 name: Gravstrap Theme Skeleton
 version: 1.0.0-RC
-description: "Gravstrap Theme Skeleton helps you to start a new Grav CMS site with Bootstrap support and several ready to use modules. It is also perfect to start a new Bootstrap custom theme, to create your unique design."
+description: "Gravstrap is a powerful Grav CMS plugin which simplifies Bootstrap components usage, implementing them as shortcodes. This theme, built on top of Gravstrap, helps you to start a new Bootstrap custom theme, to create your unique design"
 icon: picture-o
 author:
   name: Giansimon Diblas

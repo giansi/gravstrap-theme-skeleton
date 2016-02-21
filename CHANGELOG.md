@@ -1,11 +1,16 @@
 # v1.0.0-RC
-## 02/20/2016
+## 02/21/2016
 
 1. [](#improved)
-    * updated pages to work with Gravstrap 1.0.0-RC
+    * Updated pages to work with Gravstrap 1.0.0-RC
     * Removed old configurations
+
 2. [](#new)
     * Added new pages to show shortcodes in action
+    * Added different big images for each page
+    * Changed pages order
+    * Improved jumbotron texts
+    * Updated social links
 
 # v1.0.0-beta.2
 ## 02/10/2016
