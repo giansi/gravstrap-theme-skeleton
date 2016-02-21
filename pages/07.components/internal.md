@@ -7,17 +7,44 @@ metadata:
 
 [gravstrap-section-extended name="main" attributes="class:col-md-8 col-md-offset-2"]
 
+
 # Gravstrap Components
-You can check all the available shortcodes, you can use for free in your web site, in the following pages::
+You can check all the available shortcodes, you can use for free in your web site, in the following pages:
 
-* [Basic](basic-shortcodes-for-grav-cms)
-* [Bootstrap](bootstrap-components-as-shortcodes-for-grav-cms)
-* [Modules](modules-shortcodes-for-grav-cms)
+[gravstrap-thumbnail name=thumbnail_internal]
+[gravstrap-thumbnail-item image="basic.jpg" class="col-md-6"]
 
-**Basic** shortcodes handles simple html contents, like a link, icons or buttons.
+#### Basic components for Grav CMS
 
-**Bootstrap** shortcodes handles all the components provided by Bootstrap.
+A comprehensive list of all the basic components, you can use for free as shortcodes in your website.
 
-**Modules** are entire page section you can use as shortcodes.
+[Read](../gravstrap-components-for-grav-cms-application/basic-shortcodes-for-grav-cms) {.btn .btn-primary}
+[/gravstrap-thumbnail-item]
+
+[gravstrap-thumbnail-item image="bootstrap.jpg" class="col-md-6"]
+##### Bootstrap components as shortcodes
+
+Gravstrap plugin implements all Bootstrap components you can add to any page, using powerful shortcodes syntax: watch them in action in this page.
+
+[Read](../gravstrap-components-for-grav-cms-application/bootstrap-components-as-shortcodes-for-grav-cms) {.btn .btn-primary}
+[/gravstrap-thumbnail-item]
+
+[gravstrap-thumbnail-item image="modules.jpg" class="col-md-6"]
+##### Modules shortcodes
+
+Gravstrap plugin implements several modules you can use as shortcodes to simplify the web site building: watch them in action down in this page.
+
+[Read](../gravstrap-components-for-grav-cms-application/modules-shortcodes-for-grav-cms) {.btn .btn-primary}
+[/gravstrap-thumbnail-item]
+
+[gravstrap-thumbnail-item image="dynamic.jpg" class="col-md-6"]
+##### Render components by templates
+
+You can use the available components rendering them by their templates when you need to represent dynamic data fetched from an external source, like a database or a json file.
+
+[Read](../gravstrap-components-for-grav-cms-application/dynamic-bootstrap-components-as-shortcodes-for-grav-cms) {.btn .btn-primary}
+[/gravstrap-thumbnail-item]
+
+[/gravstrap-thumbnail]
 
 [/gravstrap-section-extended]
