@@ -1,3 +1,8 @@
+# v1.0.0-RC.2
+## 02/21/2016
+1. [](#improved)
+    * Improved components page with thumbnails
+
 # v1.0.0-RC.1
 ## 02/21/2016
 1. [](#bugfix)
@@ -42,7 +47,7 @@
 1. [](#bugfix)
     * Gravstrap-theme css was not correctly compiled. Fixed.
 2. [](#new)
-    * Added the Blog plugin new release 
+    * Added the Blog plugin new release
 
 
 # v0.9.13
