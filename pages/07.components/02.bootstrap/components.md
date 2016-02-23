@@ -295,7 +295,7 @@ ___
 
 ## Navbar component
 
-[gravstrap-navbar centering=none brand_text="Brand"]
+[gravstrap-navbar id="navbar3" name="navbar3" centering=none brand_text="Brand"]
     [gravstrap-navbar-menu name=menu00 alignment="center" submenu="internal,components"][/gravstrap-navbar-menu]    
     [gravstrap-navbar-menu name=menu01 icon_type="fontawesome" alignment="right" attributes="class: my-class,rel:my-rel"]
         [gravstrap-link url="https://facebook.com/gravstrap" icon_type="fontawesome" icon="facebook"][/gravstrap-link]
@@ -307,7 +307,7 @@ ___
 #### Code definition
 
     [raw]
-    [gravstrap-navbar centering=none brand_text="Gravstrap theme"]
+    [gravstrap-navbar id="navbar3" name="navbar3" centering=none brand_text="Gravstrap theme"]
         [gravstrap-navbar-menu name=menu00 alignment="center" submenu="internal,components"][/gravstrap-navbar-menu]    
         [gravstrap-navbar-menu name=menu01 icon_type="fontawesome" alignment="right" attributes="class: my-class,rel:my-rel"]
             [gravstrap-link url="https://facebook.com/gravstrap" icon_type="fontawesome" icon="facebook"][/gravstrap-link]

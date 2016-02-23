@@ -1,13 +1,13 @@
 ---
 visible: false
 ---
-[gravstrap-navbar name=navbar2 fixed=top centering=none brand_text="Gravstrap" render=false]
-    [gravstrap-navbar-menu icon_type="fontawesome" alignment="right"]
+[gravstrap-navbar id="navbar2" name=navbar2 fixed=top centering=none brand_text="Gravstrap" render=false]
+    [gravstrap-navbar-menu name=menu0 alignment="center" onepage=true attributes="class:highdensity-menu"][/gravstrap-navbar-menu]
+    [gravstrap-navbar-menu name=menu1 icon_type="fontawesome" alignment="right" attributes="class:social-menu"]
         [gravstrap-link url="https://facebook.com/gravstrap" icon_type="fontawesome" icon="facebook"][/gravstrap-link]
         [gravstrap-link url="https://twitter.com/gravstrap" icon="twitter"][/gravstrap-link]
         [gravstrap-link url="https://github.com/giansi/gravstrap" icon="github"][/gravstrap-link]
-    [/gravstrap-navbar-menu]
-    [gravstrap-navbar-menu id=menu21 alignment="center" onepage=true][/bootstrap-navbar-menu]
+    [/gravstrap-navbar-menu]    
 [/gravstrap-navbar]
 
 [gravstrap-jumbotron name="jumbotron1" fullwidth="true" image="bg.jpg" render=false]

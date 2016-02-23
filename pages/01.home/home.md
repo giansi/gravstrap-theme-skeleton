@@ -17,10 +17,6 @@ googlemaps:
               info: <strong>Meet Us</strong>.<br/>We are there!
 ---
 
-
-
-
-
 [gravstrap-jumbotron name="jumbotron1" fullwidth="true" image="bg.jpg" render=false]
 # Gravstrap
 

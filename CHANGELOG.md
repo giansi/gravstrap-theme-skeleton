@@ -1,14 +1,19 @@
-# v1.0.0-RC.2
+# v1.0.0-rc.3
+## 02/23/2016
+1. [](#improved)
+    * Updated navbar shortcode definition
+
+# v1.0.0-rc.2
 ## 02/21/2016
 1. [](#improved)
     * Improved components page with thumbnails
 
-# v1.0.0-RC.1
+# v1.0.0-rc.1
 ## 02/21/2016
 1. [](#bugfix)
     * Renamed dynamic components page, using the right template
 
-# v1.0.0-RC
+# v1.0.0-rc
 ## 02/21/2016
 
 1. [](#improved)
