@@ -111,3 +111,88 @@ ___
     [gravstrap-link url="http://diblas.net" menu="Fontawesome link" icon_type="fontawesome" icon=twitter][/gravstrap-link]
     [gravstrap-link url="http://diblas.net" menu="Fontawesome stacked icon link" icon_type="fontawesome" icon=twitter stacked=true][/gravstrap-link][gravstrap-link url="http://diblas.net" menu="Fontawesome stacked icon link" icon_type="fontawesome" icon=twitter icon_container="square-o" stacked=true][/gravstrap-link]
     [/raw]
+
+___
+
+## List
+
+A list that can be styled. Here's some examples:
+
+#### Unordered list
+
+[gravstrap-list attributes="class:my-class"]
+[gravstrap-list-item attributes="class:li-class"]Item 1[/gravstrap-list-item]
+[gravstrap-list-item]Item 2[/gravstrap-list-item]
+[gravstrap-list-item]Item 3[/gravstrap-list-item]
+[/gravstrap-list]
+
+#### Code definition
+
+    [raw]
+    [gravstrap-list attributes="class:my-class"]
+    [gravstrap-list-item attributes="class:li-class"]Item 1[/gravstrap-list-item]
+    [gravstrap-list-item]Item 2[/gravstrap-list-item]
+    [gravstrap-list-item]Item 3[/gravstrap-list-item]
+    [/gravstrap-list]
+    [/raw]
+
+
+#### Ordered list
+
+[gravstrap-list attributes="class:my-class"  tag="ol"]
+[gravstrap-list-item attributes="class:li-class"]Item 1[/gravstrap-list-item]
+[gravstrap-list-item]Item 2[/gravstrap-list-item]
+[gravstrap-list-item]Item 3[/gravstrap-list-item]
+[/gravstrap-list]
+
+#### Code definition
+
+    [raw]
+    [gravstrap-list attributes="class:my-class"  tag="ol"]
+    [gravstrap-list-item attributes="class:li-class"]Item 1[/gravstrap-list-item]
+    [gravstrap-list-item]Item 2[/gravstrap-list-item]
+    [gravstrap-list-item]Item 3[/gravstrap-list-item]
+    [/gravstrap-list]
+    [/raw]
+
+#### List of gravstrap links
+
+[gravstrap-list attributes="class:my-class"]
+    [gravstrap-list-item]
+        [gravstrap-link url="https://twitter.com/giansi72" icon="twitter" icon_type="fontawesome" attributes="class:puto"][/gravstrap-link]
+    [/gravstrap-list-item]
+    [gravstrap-list-item attributes="class:li-class"]
+        [gravstrap-link url="https://www.facebook.com/diblas.net" icon="facebook" icon_type="fontawesome"][/gravstrap-link]
+    [/gravstrap-list-item]
+    [gravstrap-list-item]
+        [gravstrap-link url="https://github.com/giansi" icon="github" icon_type="fontawesome"][/gravstrap-link]
+    [/gravstrap-list-item]
+    [gravstrap-list-item]
+        [gravstrap-link url="http://www.stumbleupon.com/stumbler/Giansimon" icon="stumbleupon" icon_type="fontawesome"][/gravstrap-link]
+    [/gravstrap-list-item]
+    [gravstrap-list-item]
+        [gravstrap-link url="http://feeds.feedburner.com/diblas" icon="rss" icon_type="fontawesome"][/gravstrap-link]
+    [/gravstrap-list-item]
+[/gravstrap-list]
+
+#### Code definition
+
+    [raw]
+    [gravstrap-list attributes="class:my-class"]
+        [gravstrap-list-item]
+            [gravstrap-link url="https://twitter.com/giansi72" icon="twitter" icon_type="fontawesome" attributes="class:puto"][/gravstrap-link]
+        [/gravstrap-list-item]
+        [gravstrap-list-item attributes="class:li-class"]
+            [gravstrap-link url="https://www.facebook.com/diblas.net" icon="facebook" icon_type="fontawesome"][/gravstrap-link]
+        [/gravstrap-list-item]
+        [gravstrap-list-item]
+            [gravstrap-link url="https://github.com/giansi" icon="github" icon_type="fontawesome"][/gravstrap-link]
+        [/gravstrap-list-item]
+        [gravstrap-list-item]
+            [gravstrap-link url="http://www.stumbleupon.com/stumbler/Giansimon" icon="stumbleupon" icon_type="fontawesome"][/gravstrap-link]
+        [/gravstrap-list-item]
+        [gravstrap-list-item]
+            [gravstrap-link url="http://feeds.feedburner.com/diblas" icon="rss" icon_type="fontawesome"][/gravstrap-link]
+        [/gravstrap-list-item]
+    [/gravstrap-list]
+    [/raw]

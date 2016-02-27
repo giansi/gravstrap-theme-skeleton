@@ -1,6 +1,7 @@
 # v1.0.0-rc.5
 ## 02/27/2016
 1. [](#improved)
+    * Added list example
     * Updated Gravstrap plugin
 
 # v1.0.0-rc.4
