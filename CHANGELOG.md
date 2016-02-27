@@ -1,3 +1,8 @@
+# v1.0.0-rc.5
+## 02/27/2016
+1. [](#improved)
+    * Updated Gravstrap plugin
+
 # v1.0.0-rc.4
 ## 02/24/2016
 1. [](#improved)
