@@ -6,8 +6,8 @@ menu: Clients
 
 [g-clients attributes="id:_clients,class:clients module"]
 
-## Show out the gravstrap-clients who trust your business
-Use the `Clients module` to show your customers, the gravstrap-clients who already trust your business
+## Show out the clients who trust your business
+Use the `Clients module` to show your customers, the clients who already trust your business
 
 ___
 
