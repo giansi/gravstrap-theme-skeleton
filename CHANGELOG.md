@@ -1,8 +1,12 @@
+# v1.0.1
+## 03/02/2016
+1. [](#improved)
+    * Added button_url property to danger button
+
 # v1.0.0
 ## 03/01/2016
 1. [](#bugfix)
     * Fixed typos
-
 
 # v1.0.0-rc.5
 ## 02/27/2016
