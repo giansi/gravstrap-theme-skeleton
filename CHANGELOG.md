@@ -1,3 +1,8 @@
+# v1.0.2
+## 03/03/2016
+1.[](#bugfix)  
+    * updated basic components demo page
+
 # v1.0.1
 ## 03/02/2016
 1. [](#improved)
