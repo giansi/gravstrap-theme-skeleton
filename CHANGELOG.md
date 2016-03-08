@@ -1,3 +1,8 @@
+# v1.0.3
+## 03/08/2016
+1.[](#bugfix)  
+    * removed the pages where the navbar is defined from caching because that shortcode dynamically builds the navigation menu, so it cannot be cached to be properly rendered
+
 # v1.0.2
 ## 03/03/2016
 1.[](#bugfix)  
