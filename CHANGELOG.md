@@ -1,3 +1,9 @@
+# v1.0.4
+## 03/18/2016
+1.[](#improved)  
+    * added new shortcode g-map to all pages, with replaces googlemaps plugin
+    * added misc components section
+
 # v1.0.3
 ## 03/08/2016
 1.[](#bugfix)  

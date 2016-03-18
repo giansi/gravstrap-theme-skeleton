@@ -4,36 +4,8 @@ metadata:
   description: Gravstrap plugin implements several modules you can use as shortcodes to simplify the web site building.
 slug: modules-shortcodes-for-grav-cms
 
-simple_form:
-        token: "xxxxx"
-        template_file: default
-        redirect_to: /thank-you-for-my-page
-
-googlemaps:
-    map:
-        center: 41.90278, 12.49637
-        zoom: 12
-        #type: TERRAIN
-        markers:
-            - location: 41.90278, 12.49637
-              title: Gravstrap Theme
-              zIndex: 1
-              timeout: 1000
-              info: <strong>Meet Us</strong>.<br/>We are there!
-    
-    contactmap:
-        center: 41.90278, 12.49637
-        zoom: 12
-        #type: TERRAIN
-        markers:
-            - location: 41.90278, 12.49637
-              title: Gravstrap Theme
-              zIndex: 1
-              timeout: 1000
-              info: <strong>Meet Us</strong>.<br/>We are there!
-
 highlight:
-    theme: ir_black
+    theme: ir-black
 ---
 
 [g-jumbotron name="jumbotron1" fullwidth="true" image="bg.jpg" render=false]
@@ -103,7 +75,12 @@ Use the `Contact map` module to tell your customers position and how they can ge
 ___
 
 [g-section name="map"]
-[GOOGLEMAPS:contactmap]
+[g-map id=contactmap zoom=12 center="41.90278,12.49637"]
+[g-map-marker location="41.90278, 12.49637" title="Gravstrap theme"]
+**Meet Us**
+We are there!
+[/g-map-marker]
+[/g-map]
 [/g-section]
 
 [g-section name="info"]
@@ -138,7 +115,12 @@ Saturday - Sunday Closed
     ___
 
     [g-section name="map"]
-    {GOOGLEMAPS:contactmap}
+    [g-map id=contactmap zoom=12 center="41.90278,12.49637"]
+    [g-map-marker location="41.90278, 12.49637" title="Gravstrap theme"]
+    **Meet Us**
+    We are there!
+    [/g-map-marker]
+    [/g-map]
     [/g-section]
 
     [g-section name="info"]
@@ -162,8 +144,6 @@ Saturday - Sunday Closed
     [/g-section]
     [/g-contacts-map]
     [/raw]
-
->>> Please note that `GOOGLEMAPS` definition must be surrounded by **[ ]** instead of **{ }**: that was only a rendering trick.
 
 ___
 
@@ -459,7 +439,12 @@ Use the `Where we are` module to tell your customers where you are
 
 ___
 
-[GOOGLEMAPS:map]
+[g-map id=map zoom=12 center="41.90278,12.49637"]
+[g-map-marker location="41.90278, 12.49637" title="Gravstrap theme"]
+**Meet Us**
+We are there!
+[/g-map-marker]
+[/g-map]
 
 [/g-where-we-are]
 
@@ -473,13 +458,15 @@ ___
 
     ___
 
-    {GOOGLEMAPS:map}
+    [g-map id=map zoom=12 center="41.90278,12.49637"]
+    [g-map-marker location="41.90278, 12.49637" title="Gravstrap theme"]
+    **Meet Us**
+    We are there!
+    [/g-map-marker]
+    [/g-map]
 
     [/g-where-we-are]
     [/raw]
-
->>> Please note that `GOOGLEMAPS` definition must be surrounded by **[ ]** instead of **{ }**: that was only a rendering trick.
-
 
 ## Footer One module
 
