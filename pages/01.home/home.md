@@ -5,7 +5,7 @@ metadata:
 slug: welcome-to-gravstrap-theme
 ---
 
-[g-jumbotron name="jumbotron1" fullwidth="true" image="bg.jpg" render=false]
+[g-jumbotron name="jumbotron1" fullwidth="true" image="bg_home.jpg" render=false]
 # Gravstrap
 
 Gravstrap is a powerful Grav CMS plugin which simplifies Bootstrap components usage, implementing them as shortcodes. This theme, built on top of Gravstrap, helps you to start a new Bootstrap custom theme, to create your unique design.
@@ -15,7 +15,6 @@ Gravstrap is a powerful Grav CMS plugin which simplifies Bootstrap components us
 [Learn Gravstrap](http://diblas.net/plugins/use-bootstrap-components-as-shortcodes-in-grav-cms){.btn .btn-outline-inverse .btn-lg}
 
 [/g-jumbotron]
-
 
 [g-what-we-do name="what_we_do" attributes="class:what-we-do module" column_attributes="class:col-md-12"]
 

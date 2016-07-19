@@ -9,10 +9,10 @@ highlight:
 ---
 
 
-[g-jumbotron name="jumbotron1" fullwidth="true" image="bg.jpg" render=false]
+[g-jumbotron name="jumbotron1" fullwidth="true" image="bg_misc.jpg" render=false]
 # Miscellaneous components
 
-A set of useful, not classificable, components 
+A set of useful, not classificable, components
 
 [/g-jumbotron]
 

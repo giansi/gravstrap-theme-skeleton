@@ -1,3 +1,8 @@
+# v1.2.0
+## 07/19/2016
+1.[](#improved)  
+    * updated to work with new Gravstrap plugin
+
 # v1.0.4
 ## 03/18/2016
 1.[](#improved)  
