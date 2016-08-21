@@ -1,8 +1,14 @@
 ---
 title: Home
-metadata:
-  description: Gravstrap Theme helps you to start a new Grav CMS site with Bootstrap support and several ready to use modules. It is also perfect to extend to start a new Bootstrap custom theme, to fit your needs.
 slug: welcome-to-gravstrap-theme
+taxonomy:
+    category: blog
+    tag: [sample, demo, grav]
+metadata:
+    description: Gravstrap Theme helps you to start a new Grav CMS site with Bootstrap support and several ready to use modules. It is also perfect to extend to start a new Bootstrap custom theme, to fit your needs.
+    author: Gian
+
+foo: bar
 ---
 
 [g-jumbotron name="jumbotron1" fullwidth="true" image="bg_home.jpg" render=false]

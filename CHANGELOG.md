@@ -1,3 +1,8 @@
+# v1.2.1
+## 08/21/2016
+1.[](#improved)  
+    * updated to Gravstrap 1.2.2
+
 # v1.2.0
 ## 07/19/2016
 1.[](#improved)  
